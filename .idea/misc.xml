@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/drawable-anydpi/add_image_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/drawable-anydpi/add_post_icon.xml" value="0.2703125" />
+        <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/layout/activity_add_post.xml" value="0.17844202898550723" />
         <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/aryam/AndroidStudioProjects/AMB/app/src/main/res/menu/main_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
