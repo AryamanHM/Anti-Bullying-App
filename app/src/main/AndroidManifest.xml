@@ -3,6 +3,10 @@
     package="com.example.amb">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,8 +16,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMB">
         <activity
-            android:name=".AddPostActivity"
+            android:name=".ForgotPasswordActivity"
             android:exported="false" />
+        <activity
+            android:name=".AddPostActivity"
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".HomeActivity"
             android:exported="false" />

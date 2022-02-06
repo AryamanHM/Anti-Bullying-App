@@ -43,6 +43,15 @@ public class MainActivity extends AppCompatActivity {
         auth=FirebaseAuth.getInstance();
 
 
+        //forgot password
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,ForgotPasswordActivity.class));
+            }
+        });
+
+
         needanAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
